@@ -4,6 +4,7 @@ using FlightBot.DatabaseSeeding.DataModels;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace FlightBot.DatabaseSeeding.Database.Repositories
@@ -29,7 +30,8 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                 return searchResults.ToArray();
             }
 
-            var query = airport.ToLower().Split(new char[] { ' ' },
+            var query = Regex.Replace(airport, @"[^0-9a-zA-Z]+", " ").
+                ToLower().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries);
 
             return _flightBotDBContext.IATACode.AsEnumerable().Where(x => 
@@ -38,7 +40,8 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
 
         bool HasMatchedQuery(string[]query, string country, string cityAirport) 
         {
-            var countrySegments = country.ToLower().Split(new char[] { ' ' },
+            var countrySegments = Regex.Replace(country, @"[^0-9a-zA-Z]+", " ").
+                ToLower().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries);
 
             int matches = 0;
@@ -60,7 +63,8 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                 }
             }
 
-            var cityAirportSegments = cityAirport.ToLower().Split(new char[] { ' ' },
+            var cityAirportSegments = Regex.Replace(cityAirport, @"[^0-9a-zA-Z]+", " ").
+                ToLower().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries);
 
             matches = 0;
@@ -104,9 +108,9 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                         await _flightBotDBContext.AddAsync(iataCode);
                         recordsEffected++;
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
-                        //handle it better
+                        _log.LogError($"Unable to process IATA Code {i.IATACode}");
                     }
                 }
                 else
