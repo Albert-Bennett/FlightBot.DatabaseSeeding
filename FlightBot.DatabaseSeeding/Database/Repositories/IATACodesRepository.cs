@@ -1,5 +1,6 @@
 ﻿using FlightBot.DatabaseSeeding.Database.Entities;
 using FlightBot.DatabaseSeeding.Database.Repositories.Abstractions;
+using FlightBot.DatabaseSeeding.DataModels;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
@@ -18,8 +19,75 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
             _log = log;
         }
 
-        public async Task<bool> UpdateIATACodes(IATACodeRequest iataCodes)
+        public IATACodeEntity[] SearchIATACodes(string airport)
         {
+            var searchResults = _flightBotDBContext.IATACode.Where(x => 
+                x.Country.Contains(airport) | x.CityAirport.Contains(airport));
+
+            if (searchResults.Count() > 0)
+            {
+                return searchResults.ToArray();
+            }
+
+            var query = airport.ToLower().Split(new char[] { ' ' },
+                StringSplitOptions.RemoveEmptyEntries);
+
+            return _flightBotDBContext.IATACode.AsEnumerable().Where(x => 
+                HasMatchedQuery(query, x.Country, x.CityAirport)).ToArray();
+        }
+
+        bool HasMatchedQuery(string[]query, string country, string cityAirport) 
+        {
+            var countrySegments = country.ToLower().Split(new char[] { ' ' },
+                StringSplitOptions.RemoveEmptyEntries);
+
+            int matches = 0;
+
+            foreach (var q in query) 
+            {
+                foreach(var c in countrySegments)
+                {
+                    if (c.Contains(q))
+                    {
+                        matches++;
+                        break;
+                    }
+                }
+
+                if (matches.Equals(query.Length))
+                {
+                    return true;
+                }
+            }
+
+            var cityAirportSegments = cityAirport.ToLower().Split(new char[] { ' ' },
+                StringSplitOptions.RemoveEmptyEntries);
+
+            matches = 0;
+
+            foreach (var q in query)
+            {
+                foreach (var c in cityAirportSegments)
+                {
+                    if (c.Contains(q))
+                    {
+                        matches++;
+                        break;
+                    }
+                }
+
+                if (matches.Equals(query.Length))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        public async Task<int> UpdateIATACodes(IATACodeRequest iataCodes)
+        {
+            int recordsEffected = 0;
 
             foreach (var i in iataCodes.IATACodes)
             {
@@ -34,10 +102,11 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                     try
                     {
                         await _flightBotDBContext.AddAsync(iataCode);
+                        recordsEffected++;
                     }
                     catch (Exception e)
                     {
-                        throw e;
+                        //handle it better
                     }
                 }
                 else
@@ -45,12 +114,14 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                     foundIATAEntry.IATACode = iataCode.IATACode;
                     foundIATAEntry.CityAirport = iataCode.CityAirport;
                     foundIATAEntry.Country = iataCode.Country;
+
+                    recordsEffected++;
                 }
             }
 
             await _flightBotDBContext.SaveChangesAsync();
 
-            return true;
+            return recordsEffected;
         }
     }
 }
