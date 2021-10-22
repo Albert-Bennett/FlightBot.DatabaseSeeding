@@ -1,6 +1,6 @@
 ﻿using FlightBot.DatabaseSeeding.Database.Entities;
 
-namespace FlightBot.DatabaseSeeding
+namespace FlightBot.DatabaseSeeding.DataModels
 {
     public class IATACodeRequest
     {
