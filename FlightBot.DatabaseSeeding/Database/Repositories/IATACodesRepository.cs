@@ -1,7 +1,6 @@
 ﻿using FlightBot.DatabaseSeeding.Database.Entities;
 using FlightBot.DatabaseSeeding.Database.Repositories.Abstractions;
 using FlightBot.DatabaseSeeding.DataModels;
-using FlightBot.DatabaseSeeding.Services.Abstractions;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
@@ -14,20 +13,23 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
     {
         readonly FlightBotDBContext _flightBotDBContext;
         readonly ILogger<IATACodesRepository> _log;
-        readonly IGeonamesAPIService _geonamesAPIService;
 
-        public IATACodesRepository(FlightBotDBContext flightBotDBContext,
-            IGeonamesAPIService geonamesAPIService, ILogger<IATACodesRepository> log)
+        public IATACodesRepository(FlightBotDBContext flightBotDBContext, ILogger<IATACodesRepository> log)
         {
             _flightBotDBContext = flightBotDBContext;
-            _geonamesAPIService = geonamesAPIService;
             _log = log;
         }
 
-        public IATACodeEntity[] SearchIATACodes(string airport)
+        public IATACodeEntity[] SearchIATACodes(string airport, string geonameId)
         {
             var searchResults = _flightBotDBContext.IATACode.Where(x =>
-                x.Country.Contains(airport) | x.CityAirport.Contains(airport));
+                x.geonameId.Equals(geonameId));
+
+            if (searchResults.Count() == 0)
+            {
+                searchResults = _flightBotDBContext.IATACode.Where(x =>
+                    x.Country.Contains(airport) | x.CityAirport.Contains(airport));
+            }
 
             if (searchResults.Count() > 0)
             {
@@ -38,11 +40,11 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                 ToLower().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries);
 
-            return _flightBotDBContext.IATACode.AsEnumerable().Where(x =>
+            return _flightBotDBContext.IATACode.AsEnumerable().Where(x => 
                 HasMatchedQuery(query, x.Country, x.CityAirport)).ToArray();
         }
 
-        bool HasMatchedQuery(string[] query, string country, string cityAirport)
+        bool HasMatchedQuery(string[]query, string country, string cityAirport) 
         {
             var countrySegments = Regex.Replace(country, @"[^0-9a-zA-Z]+", " ").
                 ToLower().Split(new char[] { ' ' },
@@ -50,9 +52,9 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
 
             int matches = 0;
 
-            foreach (var q in query)
+            foreach (var q in query) 
             {
-                foreach (var c in countrySegments)
+                foreach(var c in countrySegments)
                 {
                     if (c.Contains(q))
                     {
@@ -100,7 +102,6 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
             foreach (var i in iataCodes.IATACodes)
             {
                 var iataCode = i.ToIATACodeEntity();
-                iataCode.geonameId = await SearchForGeonameId(iataCode.CityAirport);
 
                 var foundIATAEntry = _flightBotDBContext.IATACode.Where(x => x.IATACode.Equals(iataCode.IATACode)).FirstOrDefault();
 
@@ -123,7 +124,6 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                     foundIATAEntry.IATACode = iataCode.IATACode;
                     foundIATAEntry.CityAirport = iataCode.CityAirport;
                     foundIATAEntry.Country = iataCode.Country;
-                    foundIATAEntry.geonameId = iataCode.geonameId;
 
                     recordsEffected++;
                 }
@@ -132,20 +132,6 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
             await _flightBotDBContext.SaveChangesAsync();
 
             return recordsEffected;
-        }
-
-        async Task<string> SearchForGeonameId(string name)
-        {
-            var result = await _geonamesAPIService.SearchForGeonameId(name);
-
-            if (result.geonames.Length > 0)
-            {
-                return result.geonames.First().geonameId;
-            }
-
-            _log.LogWarning($"Couldn't find geoname id for {name}");
-
-            return string.Empty;
         }
     }
 }

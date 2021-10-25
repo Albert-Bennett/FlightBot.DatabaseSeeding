@@ -21,10 +21,11 @@ namespace FlightBot.DatabaseSeeding
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req)
         {
             string query = req.Query["airport"];
+            string geonameId = req.Query["geonameId"];
 
             var searchResults = new IATASearchResponse 
             {
-                SearchResults = _iataCodesRepository.SearchIATACodes(query)
+                SearchResults = _iataCodesRepository.SearchIATACodes(query, geonameId)
             };
 
             return new JsonResult(searchResults);

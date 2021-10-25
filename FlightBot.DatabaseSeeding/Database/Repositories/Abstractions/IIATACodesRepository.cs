@@ -7,6 +7,6 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories.Abstractions
     public interface IIATACodesRepository
     {
         Task<int> UpdateIATACodes(IATACodeRequest iataCodes);
-        IATACodeEntity[] SearchIATACodes(string airport);
+        IATACodeEntity[] SearchIATACodes(string airport, string geonameId);
     }
 }
