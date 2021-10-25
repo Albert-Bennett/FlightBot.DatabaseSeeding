@@ -20,8 +20,8 @@ namespace FlightBot.DatabaseSeeding
         public IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req)
         {
-            string query = req.Query["airport"];
-            string geonameId = req.Query["geonameId"];
+            string query = req.Query.ContainsKey("airport") ? req.Query["airport"].ToString() : string.Empty;
+            string geonameId = req.Query.ContainsKey("geonameId") ? req.Query["geonameId"].ToString() : string.Empty;
 
             var searchResults = new IATASearchResponse 
             {
