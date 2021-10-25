@@ -2,6 +2,8 @@
 using FlightBot.DatabaseSeeding.Database.Entities;
 using FlightBot.DatabaseSeeding.Database.Repositories;
 using FlightBot.DatabaseSeeding.Database.Repositories.Abstractions;
+using FlightBot.DatabaseSeeding.Services;
+using FlightBot.DatabaseSeeding.Services.Abstractions;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -16,9 +18,11 @@ namespace FlightBot.DatabaseSeeding
     {
         public void Configure(IWebJobsBuilder builder)
         {
+            builder.Services.AddHttpClient();
             builder.Services.AddLogging();
             builder.Services.AddDbContext<FlightBotDBContext>(options => options.UseSqlServer(Environment.GetEnvironmentVariable("SQLConnectionString")));
             builder.Services.AddScoped<IIATACodesRepository, IATACodesRepository>();
+            builder.Services.AddScoped<IGeonamesAPIService, GeonamesAPIService>();
         }
     }
 }

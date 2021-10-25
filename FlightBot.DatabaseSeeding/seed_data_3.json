@@ -1,0 +1,3249 @@
+﻿{
+  "IATACodes": [
+    {
+      "Airport": "Ohrid",
+      "Country": "Macedonia",
+      "IATACode": "OHD"
+    },
+    {
+      "Airport": "Oita",
+      "Country": "Japan",
+      "IATACode": "OIT"
+    },
+    {
+      "Airport": "Okayama",
+      "Country": "Japan",
+      "IATACode": "OKJ"
+    },
+    {
+      "Airport": "Okinawa, Ryukyo Island - Naha",
+      "Country": "Japan",
+      "IATACode": "OKA"
+    },
+    {
+      "Airport": "Oklahoma City (OK) - Will Rogers World",
+      "Country": "USA",
+      "IATACode": "OKC"
+    },
+    {
+      "Airport": "Olbia",
+      "Country": "Italy",
+      "IATACode": "OLB"
+    },
+    {
+      "Airport": "Olympic Dam",
+      "Country": "Australia",
+      "IATACode": "OLP"
+    },
+    {
+      "Airport": "Omaha (NE)",
+      "Country": "USA",
+      "IATACode": "OMA"
+    },
+    {
+      "Airport": "Ondangwa",
+      "Country": "Namibia",
+      "IATACode": "OND"
+    },
+    {
+      "Airport": "Ontario (CA)",
+      "Country": "USA",
+      "IATACode": "ONT"
+    },
+    {
+      "Airport": "Oran (Ouahran)",
+      "Country": "Algeria",
+      "IATACode": "ORN"
+    },
+    {
+      "Airport": "Orange",
+      "Country": "Australia",
+      "IATACode": "OAG"
+    },
+    {
+      "Airport": "John Wayne Airport-Orange County (Santa Ana)",
+      "Country": "USA",
+      "IATACode": "SNA"
+    },
+    {
+      "Airport": "Oranjemund",
+      "Country": "Namibia",
+      "IATACode": "OMD"
+    },
+    {
+      "Airport": "Orlando Metropolitan Area (FL)",
+      "Country": "USA",
+      "IATACode": "ORL"
+    },
+    {
+      "Airport": "Orlando - International Airport (FL)",
+      "Country": "USA",
+      "IATACode": "MCO"
+    },
+    {
+      "Airport": "Orpheus Island",
+      "Country": "Australia",
+      "IATACode": "ORS"
+    },
+    {
+      "Airport": "Osaka, Metropolitan Area",
+      "Country": "Japan",
+      "IATACode": "OSA"
+    },
+    {
+      "Airport": "Osaka - Itami",
+      "Country": "Japan",
+      "IATACode": "ITM"
+    },
+    {
+      "Airport": "Osaka - Kansai International Airport",
+      "Country": "Japan",
+      "IATACode": "KIX"
+    },
+    {
+      "Airport": "Oshkosh (WI)",
+      "Country": "USA",
+      "IATACode": "OSH"
+    },
+    {
+      "Airport": "Osijek",
+      "Country": "Croatia (Hrvatska)",
+      "IATACode": "OSI"
+    },
+    {
+      "Airport": "Oslo - Oslo Airport, Gardermoen",
+      "Country": "Norway",
+      "IATACode": "OSL"
+    },
+    {
+      "Airport": "Oslo - Fornebu",
+      "Country": "Norway",
+      "IATACode": "FBU"
+    },
+    {
+      "Airport": "Oslo - Sandefjord",
+      "Country": "Norway",
+      "IATACode": "TRF"
+    },
+    {
+      "Airport": "Ottawa - Hull",
+      "Country": "Canada",
+      "IATACode": "YOW"
+    },
+    {
+      "Airport": "Ouadda",
+      "Country": "Central African Republic",
+      "IATACode": "ODA"
+    },
+    {
+      "Airport": "Ouarzazate",
+      "Country": "Morocco",
+      "IATACode": "OZZ"
+    },
+    {
+      "Airport": "Oudtshoorn",
+      "Country": "South Africa",
+      "IATACode": "OUH"
+    },
+    {
+      "Airport": "Ouagadougou",
+      "Country": "Burkina Faso",
+      "IATACode": "OUA"
+    },
+    {
+      "Airport": "Oujda",
+      "Country": "Morocco",
+      "IATACode": "OUD"
+    },
+    {
+      "Airport": "Oulu",
+      "Country": "Finland",
+      "IATACode": "OUL"
+    },
+    {
+      "Airport": "Out Skerries (Shetland)",
+      "Country": "United Kingdom",
+      "IATACode": "OUK"
+    },
+    {
+      "Airport": "Oviedo",
+      "Country": "Spain",
+      "IATACode": "OVD"
+    },
+    {
+      "Airport": "Owensboro (KY)",
+      "Country": "USA",
+      "IATACode": "OWB"
+    },
+    {
+      "Airport": "Oxnard (CA)",
+      "Country": "USA",
+      "IATACode": "OXR"
+    },
+    {
+      "Airport": "Oyem",
+      "Country": "Gabon/Loyautte",
+      "IATACode": "UVE"
+    },
+    {
+      "Airport": "Paderborn/Lippstadt",
+      "Country": "Germany",
+      "IATACode": "PAD"
+    },
+    {
+      "Airport": "Paducah (KY)",
+      "Country": "USA",
+      "IATACode": "PAH"
+    },
+    {
+      "Airport": "Page/Lake Powell (AZ)",
+      "Country": "USA",
+      "IATACode": "PGA"
+    },
+    {
+      "Airport": "Pago Pago",
+      "Country": "American Samoa",
+      "IATACode": "PPG"
+    },
+    {
+      "Airport": "Pakersburg (WV) /Marietta (OH)",
+      "Country": "USA",
+      "IATACode": "PKB"
+    },
+    {
+      "Airport": "Palermo - Punta Raisi",
+      "Country": "Italy",
+      "IATACode": "PMO"
+    },
+    {
+      "Airport": "Palma de Mallorca",
+      "Country": "Spain",
+      "IATACode": "PMI"
+    },
+    {
+      "Airport": "Palmas",
+      "Country": "Brazil",
+      "IATACode": "PMW"
+    },
+    {
+      "Airport": "Palmdale/Lancaster (CA)",
+      "Country": "USA",
+      "IATACode": "PMD"
+    },
+    {
+      "Airport": "Palmerston North",
+      "Country": "New Zealand",
+      "IATACode": "PMR"
+    },
+    {
+      "Airport": "Palm Springs (CA)",
+      "Country": "USA",
+      "IATACode": "PSP"
+    },
+    {
+      "Airport": "Panama City - Tocumen International",
+      "Country": "Panama",
+      "IATACode": "PTY"
+    },
+    {
+      "Airport": "Panama City (FL)",
+      "Country": "USA",
+      "IATACode": "PFN"
+    },
+    {
+      "Airport": "Panjgur",
+      "Country": "Pakistan",
+      "IATACode": "PJG"
+    },
+    {
+      "Airport": "Pantelleria",
+      "Country": "Italy",
+      "IATACode": "PNL"
+    },
+    {
+      "Airport": "Papeete - Faaa",
+      "Country": "French Polynesia (Tahiti)",
+      "IATACode": "PPT"
+    },
+    {
+      "Airport": "Paphos",
+      "Country": "Cyprus",
+      "IATACode": "PFO"
+    },
+    {
+      "Airport": "Paraburdoo",
+      "Country": "Australia",
+      "IATACode": "PBO"
+    },
+    {
+      "Airport": "Paramaribo - Zanderij International",
+      "Country": "Suriname",
+      "IATACode": "PBM"
+    },
+    {
+      "Airport": "Paris",
+      "Country": "France",
+      "IATACode": "PAR"
+    },
+    {
+      "Airport": "Paris - Charles de Gaulle",
+      "Country": "France",
+      "IATACode": "CDG"
+    },
+    {
+      "Airport": "Paris - Le Bourget",
+      "Country": "France",
+      "IATACode": "LBG"
+    },
+    {
+      "Airport": "Paris - Orly",
+      "Country": "France",
+      "IATACode": "ORY"
+    },
+    {
+      "Airport": "Paro",
+      "Country": "Bhutan",
+      "IATACode": "PBH"
+    },
+    {
+      "Airport": "Pasco (WA)",
+      "Country": "USA",
+      "IATACode": "PSC"
+    },
+    {
+      "Airport": "Pasni",
+      "Country": "Pakistan",
+      "IATACode": "PSI"
+    },
+    {
+      "Airport": "Patna",
+      "Country": "India",
+      "IATACode": "PAT"
+    },
+    {
+      "Airport": "Pattaya",
+      "Country": "Thailand",
+      "IATACode": "PYX"
+    },
+    {
+      "Airport": "Pau",
+      "Country": "France",
+      "IATACode": "PUF"
+    },
+    {
+      "Airport": "Pellston (MI)",
+      "Country": "USA",
+      "IATACode": "PLN"
+    },
+    {
+      "Airport": "Penang International",
+      "Country": "Malaysia",
+      "IATACode": "PEN"
+    },
+    {
+      "Airport": "Pendelton (OR)",
+      "Country": "USA",
+      "IATACode": "PDT"
+    },
+    {
+      "Airport": "Pensacola (FL)",
+      "Country": "USA",
+      "IATACode": "PNS"
+    },
+    {
+      "Airport": "Peoria/Bloomington (IL)",
+      "Country": "USA",
+      "IATACode": "PIA"
+    },
+    {
+      "Airport": "Pereira",
+      "Country": "Colombia",
+      "IATACode": "PEI"
+    },
+    {
+      "Airport": "Perpignan",
+      "Country": "France",
+      "IATACode": "PGF"
+    },
+    {
+      "Airport": "Perth International",
+      "Country": "Australia",
+      "IATACode": "PER"
+    },
+    {
+      "Airport": "Perugia",
+      "Country": "Italy",
+      "IATACode": "PEG"
+    },
+    {
+      "Airport": "Pescara",
+      "Country": "Italy",
+      "IATACode": "PSR"
+    },
+    {
+      "Airport": "Peshawar",
+      "Country": "Pakistan",
+      "IATACode": "PEW"
+    },
+    {
+      "Airport": "Petersburg (AK)",
+      "Country": "USA",
+      "IATACode": "PSG"
+    },
+    {
+      "Airport": "Phalaborwa",
+      "Country": "South Africa",
+      "IATACode": "PHW"
+    },
+    {
+      "Airport": "Philadelphia (PA) - International",
+      "Country": "USA",
+      "IATACode": "PHL"
+    },
+    {
+      "Airport": "Phnom Penh - Pochentong",
+      "Country": "Cambodia",
+      "IATACode": "PNH"
+    },
+    {
+      "Airport": "Phoenix (AZ) - Sky Harbor International",
+      "Country": "USA",
+      "IATACode": "PHX"
+    },
+    {
+      "Airport": "Phuket",
+      "Country": "Thailand",
+      "IATACode": "HKT"
+    },
+    {
+      "Airport": "Pierre (SD)",
+      "Country": "USA",
+      "IATACode": "PIR"
+    },
+    {
+      "Airport": "Pietermaritzburg",
+      "Country": "South Africa",
+      "IATACode": "PZB"
+    },
+    {
+      "Airport": "Pietersburg",
+      "Country": "South Africa",
+      "IATACode": "PTG"
+    },
+    {
+      "Airport": "Pilanesberg/Sun City",
+      "Country": "South Africa",
+      "IATACode": "NTY"
+    },
+    {
+      "Airport": "Pisa - Galileo Galilei",
+      "Country": "Italy",
+      "IATACode": "PSA"
+    },
+    {
+      "Airport": "Pittsburgh International Airport (PA)",
+      "Country": "USA",
+      "IATACode": "PIT"
+    },
+    {
+      "Airport": "Plattsburgh (NY)",
+      "Country": "USA",
+      "IATACode": "PLB"
+    },
+    {
+      "Airport": "Plettenberg Bay",
+      "Country": "South Africa",
+      "IATACode": "PBZ"
+    },
+    {
+      "Airport": "Pocatello (ID)",
+      "Country": "USA",
+      "IATACode": "PIH"
+    },
+    {
+      "Airport": "Podgorica",
+      "Country": "Montenegro",
+      "IATACode": "TGD"
+    },
+    {
+      "Airport": "Pohnpei",
+      "Country": "Micronesia",
+      "IATACode": "PNI"
+    },
+    {
+      "Airport": "Pointe Noire",
+      "Country": "Congo (ROC)",
+      "IATACode": "PNR"
+    },
+    {
+      "Airport": "Poitiers - Biard",
+      "Country": "France",
+      "IATACode": "PIS"
+    },
+    {
+      "Airport": "Ponce",
+      "Country": "Puerto Rico",
+      "IATACode": "PSE"
+    },
+    {
+      "Airport": "Ponta Delgada",
+      "Country": "Portugal",
+      "IATACode": "PDL"
+    },
+    {
+      "Airport": "Pori",
+      "Country": "Finland",
+      "IATACode": "POR"
+    },
+    {
+      "Airport": "Port Angeles (WA)",
+      "Country": "USA",
+      "IATACode": "CLM"
+    },
+    {
+      "Airport": "Port au Prince",
+      "Country": "Haiti",
+      "IATACode": "PAP"
+    },
+    {
+      "Airport": "Port Augusta",
+      "Country": "Australia",
+      "IATACode": "PUG"
+    },
+    {
+      "Airport": "Port Elizabeth",
+      "Country": "South Africa",
+      "IATACode": "PLZ"
+    },
+    {
+      "Airport": "Port Gentil",
+      "Country": "Gabon",
+      "IATACode": "POG"
+    },
+    {
+      "Airport": "Port Harcourt",
+      "Country": "Nigeria",
+      "IATACode": "PHC"
+    },
+    {
+      "Airport": "Port Hedland",
+      "Country": "Australia",
+      "IATACode": "PHE"
+    },
+    {
+      "Airport": "Portland",
+      "Country": "Australia",
+      "IATACode": "PTJ"
+    },
+    {
+      "Airport": "Portland (ME)",
+      "Country": "USA",
+      "IATACode": "PWM"
+    },
+    {
+      "Airport": "Portland International (OR)",
+      "Country": "USA",
+      "IATACode": "PDX"
+    },
+    {
+      "Airport": "Port Lincoln",
+      "Country": "Australia",
+      "IATACode": "PLO"
+    },
+    {
+      "Airport": "Port Macquarie",
+      "Country": "Australia",
+      "IATACode": "PQQ"
+    },
+    {
+      "Airport": "Port Menier, PQ",
+      "Country": "Canada",
+      "IATACode": "YPN"
+    },
+    {
+      "Airport": "Port Moresby - Jackson Field",
+      "Country": "Papua New Guinea",
+      "IATACode": "POM"
+    },
+    {
+      "Airport": "Porto",
+      "Country": "Portugal",
+      "IATACode": "OPO"
+    },
+    {
+      "Airport": "Porto Alegre - Salgado Filho International Airport",
+      "Country": "Brazil",
+      "IATACode": "POA"
+    },
+    {
+      "Airport": "Port of Spain - Piarco International",
+      "Country": "Trinidad and Tobago",
+      "IATACode": "POS"
+    },
+    {
+      "Airport": "Port Said",
+      "Country": "Egypt",
+      "IATACode": "PSD"
+    },
+    {
+      "Airport": "Porto Santo",
+      "Country": "Portugal",
+      "IATACode": "PXO"
+    },
+    {
+      "Airport": "Porto Velho",
+      "Country": "Brazil",
+      "IATACode": "PVH"
+    },
+    {
+      "Airport": "Port Vila",
+      "Country": "Vanuatu",
+      "IATACode": "VLI"
+    },
+    {
+      "Airport": "Poughkeepsie (NY)",
+      "Country": "USA",
+      "IATACode": "POU"
+    },
+    {
+      "Airport": "Poznan, Lawica",
+      "Country": "Poland",
+      "IATACode": "POZ"
+    },
+    {
+      "Airport": "Prague - Václav Havel Airport (formerly Ruzyne)",
+      "Country": "Czech Republic",
+      "IATACode": "PRG"
+    },
+    {
+      "Airport": "Praia - Nelson Mandela International Airport",
+      "Country": "Cape Verde",
+      "IATACode": "RAI"
+    },
+    {
+      "Airport": "Presque Island (ME)",
+      "Country": "USA",
+      "IATACode": "PQI"
+    },
+    {
+      "Airport": "Pretoria - Wonderboom Apt.",
+      "Country": "South Africa",
+      "IATACode": "PRY"
+    },
+    {
+      "Airport": "Preveza/Lefkas",
+      "Country": "Greece",
+      "IATACode": "PVK"
+    },
+    {
+      "Airport": "Prince George",
+      "Country": "Canada",
+      "IATACode": "YXS"
+    },
+    {
+      "Airport": "Prince Rupert/Digby Island",
+      "Country": "Canada",
+      "IATACode": "YPR"
+    },
+    {
+      "Airport": "Pristina",
+      "Country": "Serbia",
+      "IATACode": "PRN"
+    },
+    {
+      "Airport": "Prosperpine",
+      "Country": "Australia",
+      "IATACode": "PPP"
+    },
+    {
+      "Airport": "Providence (RI)",
+      "Country": "USA",
+      "IATACode": "PVD"
+    },
+    {
+      "Airport": "Prudhoe Bay (AK)",
+      "Country": "USA",
+      "IATACode": "SCC"
+    },
+    {
+      "Airport": "Puebla",
+      "Country": "Mexico",
+      "IATACode": "PBC"
+    },
+    {
+      "Airport": "Pueblo (CO)",
+      "Country": "USA",
+      "IATACode": "PUB"
+    },
+    {
+      "Airport": "Puerto Escondido",
+      "Country": "Mexico",
+      "IATACode": "PXM"
+    },
+    {
+      "Airport": "Puerto Ordaz",
+      "Country": "Venezuela",
+      "IATACode": "PZO"
+    },
+    {
+      "Airport": "Puerto Plata",
+      "Country": "Dominican Republic",
+      "IATACode": "POP"
+    },
+    {
+      "Airport": "Puerto Vallarta",
+      "Country": "Mexico",
+      "IATACode": "PVR"
+    },
+    {
+      "Airport": "Pukatawagan",
+      "Country": "Canada",
+      "IATACode": "XPK"
+    },
+    {
+      "Airport": "Pula",
+      "Country": "Croatia (Hrvatska)",
+      "IATACode": "PUY"
+    },
+    {
+      "Airport": "Pullman (WA)",
+      "Country": "USA",
+      "IATACode": "PUW"
+    },
+    {
+      "Airport": "Pune",
+      "Country": "India, Maharashtra",
+      "IATACode": "PNQ"
+    },
+    {
+      "Airport": "Punta Arenas - Presidente Carlos Ibáñez del Campo",
+      "Country": "Chile",
+      "IATACode": "PUQ"
+    },
+    {
+      "Airport": "Punta Cana - Punta Cana International",
+      "Country": "Dominican Republic",
+      "IATACode": "PUJ"
+    },
+    {
+      "Airport": "Pu San (Busan) - Gimhae International Airport",
+      "Country": "South Korea",
+      "IATACode": "PUS"
+    },
+    {
+      "Airport": "Pyongyang - Sunan International Airport",
+      "Country": "North Korea",
+      "IATACode": "FNJ"
+    },
+    {
+      "Airport": "Quebec - Quebec International",
+      "Country": "Canada",
+      "IATACode": "YQB"
+    },
+    {
+      "Airport": "Queenstown",
+      "Country": "Australia",
+      "IATACode": "UEE"
+    },
+    {
+      "Airport": "Queenstown",
+      "Country": "New Zealand",
+      "IATACode": "ZQN"
+    },
+    {
+      "Airport": "Quetta",
+      "Country": "Pakistan",
+      "IATACode": "UET"
+    },
+    {
+      "Airport": "Qingdao",
+      "Country": "Shandong, PR China",
+      "IATACode": "TAO"
+    },
+    {
+      "Airport": "Quimper",
+      "Country": "France",
+      "IATACode": "UIP"
+    },
+    {
+      "Airport": "Quincy (IL)",
+      "Country": "USA",
+      "IATACode": "UIN"
+    },
+    {
+      "Airport": "Quito - Mariscal Sucre International Airport",
+      "Country": "Ecuador",
+      "IATACode": "UIO"
+    },
+    {
+      "Airport": "Rabat - Rabat-Salé Airport",
+      "Country": "Morocco",
+      "IATACode": "RBA"
+    },
+    {
+      "Airport": "Rahim Yar Khan - Shaikh Zayed International Airport",
+      "Country": "Pakistan",
+      "IATACode": "RYK"
+    },
+    {
+      "Airport": "Raiatea",
+      "Country": "French Polynesia",
+      "IATACode": "RFP"
+    },
+    {
+      "Airport": "Rainbow Lake, AB",
+      "Country": "Canada",
+      "IATACode": "YOP"
+    },
+    {
+      "Airport": "Rajkot",
+      "Country": "India",
+      "IATACode": "RAJ"
+    },
+    {
+      "Airport": "Raleigh/Durham (NC)",
+      "Country": "USA",
+      "IATACode": "RDU"
+    },
+    {
+      "Airport": "Ranchi",
+      "Country": "India",
+      "IATACode": "IXR"
+    },
+    {
+      "Airport": "Rangiroa",
+      "Country": "French Polynesia",
+      "IATACode": "RGI"
+    },
+    {
+      "Airport": "Rapid City (SD)",
+      "Country": "USA",
+      "IATACode": "RAP"
+    },
+    {
+      "Airport": "Rarotonga",
+      "Country": "Cook Island",
+      "IATACode": "RAR"
+    },
+    {
+      "Airport": "Ras al Khaymah (Ras al Khaimah)",
+      "Country": "United Arab Emirates",
+      "IATACode": "RKT"
+    },
+    {
+      "Airport": "Rawala Kot",
+      "Country": "Pakistan",
+      "IATACode": "RAZ"
+    },
+    {
+      "Airport": "Rawalpindi",
+      "Country": "Pakistan",
+      "IATACode": "RWP"
+    },
+    {
+      "Airport": "Reading (PA)",
+      "Country": "USA",
+      "IATACode": "RDG"
+    },
+    {
+      "Airport": "Recife - Guararapes-Gilberto Freyre International",
+      "Country": "Brazil",
+      "IATACode": "REC"
+    },
+    {
+      "Airport": "Redding (CA)",
+      "Country": "USA",
+      "IATACode": "RDD"
+    },
+    {
+      "Airport": "Redmond (OR)",
+      "Country": "USA",
+      "IATACode": "RDM"
+    },
+    {
+      "Airport": "Reggio Calabria",
+      "Country": "Italy",
+      "IATACode": "REG"
+    },
+    {
+      "Airport": "Regina",
+      "Country": "Canada",
+      "IATACode": "YQR"
+    },
+    {
+      "Airport": "Rennes",
+      "Country": "France",
+      "IATACode": "RNS"
+    },
+    {
+      "Airport": "Reno (NV)",
+      "Country": "USA",
+      "IATACode": "RNO"
+    },
+    {
+      "Airport": "Resolute Bay",
+      "Country": "Canada",
+      "IATACode": "YRB"
+    },
+    {
+      "Airport": "Reus",
+      "Country": "Spain",
+      "IATACode": "REU"
+    },
+    {
+      "Airport": "Reykjavik - Metropolitan Area",
+      "Country": "Iceland",
+      "IATACode": "REK"
+    },
+    {
+      "Airport": "Reykjavik - Keflavik International",
+      "Country": "Iceland",
+      "IATACode": "KEF"
+    },
+    {
+      "Airport": "Rhinelander (WI)",
+      "Country": "USA",
+      "IATACode": "RHI"
+    },
+    {
+      "Airport": "Rhodos",
+      "Country": "Greece",
+      "IATACode": "RHO"
+    },
+    {
+      "Airport": "Richards Bay",
+      "Country": "South Africa",
+      "IATACode": "RCB"
+    },
+    {
+      "Airport": "Richmond (VA)",
+      "Country": "USA",
+      "IATACode": "RIC"
+    },
+    {
+      "Airport": "Riga",
+      "Country": "Latvia",
+      "IATACode": "RIX"
+    },
+    {
+      "Airport": "Rijeka",
+      "Country": "Croatia (Hrvatska)",
+      "IATACode": "RJK"
+    },
+    {
+      "Airport": "Rimini",
+      "Country": "Italy",
+      "IATACode": "RMI"
+    },
+    {
+      "Airport": "Rio Branco - Plácido de Castro International Airport",
+      "Country": "Brazil",
+      "IATACode": "RBR"
+    },
+    {
+      "Airport": "Rio de Janeiro - Galeao",
+      "Country": "Brazil",
+      "IATACode": "GIG"
+    },
+    {
+      "Airport": "Rio de Janeiro - Santos Dumont",
+      "Country": "Brazil",
+      "IATACode": "SDU"
+    },
+    {
+      "Airport": "Rio de Janeiro",
+      "Country": "Brazil",
+      "IATACode": "RIO"
+    },
+    {
+      "Airport": "Riyadh - King Khaled International",
+      "Country": "Saudi Arabia",
+      "IATACode": "RUH"
+    },
+    {
+      "Airport": "Roanne",
+      "Country": "France",
+      "IATACode": "RNE"
+    },
+    {
+      "Airport": "Roanoke (VA)",
+      "Country": "USA",
+      "IATACode": "ROA"
+    },
+    {
+      "Airport": "Roatan",
+      "Country": "Honduras",
+      "IATACode": "RTB"
+    },
+    {
+      "Airport": "Rochester (MN)",
+      "Country": "USA",
+      "IATACode": "RST"
+    },
+    {
+      "Airport": "Rochester (NY)",
+      "Country": "USA",
+      "IATACode": "ROC"
+    },
+    {
+      "Airport": "Rock Sound",
+      "Country": "Bahamas",
+      "IATACode": "RSD"
+    },
+    {
+      "Airport": "Rock Springs (WY)",
+      "Country": "USA",
+      "IATACode": "RKS"
+    },
+    {
+      "Airport": "Rockford (IL)",
+      "Country": "USA",
+      "IATACode": "RFD"
+    },
+    {
+      "Airport": "Rockhampton",
+      "Country": "Australia",
+      "IATACode": "ROK"
+    },
+    {
+      "Airport": "Rockland (ME)",
+      "Country": "USA",
+      "IATACode": "RKD"
+    },
+    {
+      "Airport": "Rocky Mount - Wilson (NC)",
+      "Country": "USA",
+      "IATACode": "RWI"
+    },
+    {
+      "Airport": "Rodez",
+      "Country": "France",
+      "IATACode": "RDZ"
+    },
+    {
+      "Airport": "Rodrigues Island",
+      "Country": "Mauritius",
+      "IATACode": "RRG"
+    },
+    {
+      "Airport": "Roenne",
+      "Country": "Denmark",
+      "IATACode": "RNN"
+    },
+    {
+      "Airport": "Rome",
+      "Country": "Italy",
+      "IATACode": "ROM"
+    },
+    {
+      "Airport": "Rome - Ciampino",
+      "Country": "Italy",
+      "IATACode": "CIA"
+    },
+    {
+      "Airport": "Rome - Fuimicino",
+      "Country": "Italy",
+      "IATACode": "FCO"
+    },
+    {
+      "Airport": "Ronneby",
+      "Country": "Sweden",
+      "IATACode": "RNB"
+    },
+    {
+      "Airport": "Rosario",
+      "Country": "Argentina",
+      "IATACode": "ROS"
+    },
+    {
+      "Airport": "Rostov-on-Don - Rostov-on-Don Airport",
+      "Country": "Russia",
+      "IATACode": "RVI"
+    },
+    {
+      "Airport": "Rostov-on-Don - Platov International Airport",
+      "Country": "Russia",
+      "IATACode": "ROV"
+    },
+    {
+      "Airport": "Rotorua",
+      "Country": "New Zealand",
+      "IATACode": "ROT"
+    },
+    {
+      "Airport": "Rotterdam",
+      "Country": "Netherlands",
+      "IATACode": "RTM"
+    },
+    {
+      "Airport": "Rovaniemi",
+      "Country": "Finland",
+      "IATACode": "RVN"
+    },
+    {
+      "Airport": "Rundu",
+      "Country": "Namibia",
+      "IATACode": "NDU"
+    },
+    {
+      "Airport": "Ruse",
+      "Country": "Bulgaria",
+      "IATACode": "ROU"
+    },
+    {
+      "Airport": "Saarbruecken",
+      "Country": "Germany",
+      "IATACode": "SCN"
+    },
+    {
+      "Airport": "Sacramento (CA)",
+      "Country": "USA",
+      "IATACode": "SMF"
+    },
+    {
+      "Airport": "Sado Shima",
+      "Country": "Japan",
+      "IATACode": "SDS"
+    },
+    {
+      "Airport": "Saginaw/Bay City/Midland (MI)",
+      "Country": "USA",
+      "IATACode": "MBS"
+    },
+    {
+      "Airport": "Saidu Sharif",
+      "Country": "Pakistan",
+      "IATACode": "SDT"
+    },
+    {
+      "Airport": "Saigon (Ho Chi Minh City) - Tan Son Nhat International",
+      "Country": "Viet Nam",
+      "IATACode": "SGN"
+    },
+    {
+      "Airport": "Saint Brieuc",
+      "Country": "France",
+      "IATACode": "SBK"
+    },
+    {
+      "Airport": "Saint Denis - Roland Garros Airport",
+      "Country": "Reunion",
+      "IATACode": "RUN"
+    },
+    {
+      "Airport": "Saint John",
+      "Country": "Canada",
+      "IATACode": "YSJ"
+    },
+    {
+      "Airport": "Saipan",
+      "Country": "Northern Mariana Islands",
+      "IATACode": "SPN"
+    },
+    {
+      "Airport": "Sal",
+      "Country": "Cape Verde",
+      "IATACode": "SID"
+    },
+    {
+      "Airport": "Salalah",
+      "Country": "Oman",
+      "IATACode": "SLL"
+    },
+    {
+      "Airport": "Salem (OR)",
+      "Country": "USA",
+      "IATACode": "SLE"
+    },
+    {
+      "Airport": "Salinas (CA)",
+      "Country": "USA",
+      "IATACode": "SNS"
+    },
+    {
+      "Airport": "Salinas",
+      "Country": "Ecuador",
+      "IATACode": "SNC"
+    },
+    {
+      "Airport": "Salisbury",
+      "Country": "Zimbabwe",
+      "IATACode": "SAY"
+    },
+    {
+      "Airport": "Salisbury (MD)",
+      "Country": "USA",
+      "IATACode": "SBY"
+    },
+    {
+      "Airport": "Salta, Gen Belgrano",
+      "Country": "Argentina",
+      "IATACode": "SLA"
+    },
+    {
+      "Airport": "Salt Lake City (UT)",
+      "Country": "USA",
+      "IATACode": "SLC"
+    },
+    {
+      "Airport": "Salvador - Salvador International Airport",
+      "Country": "Brazil",
+      "IATACode": "SSA"
+    },
+    {
+      "Airport": "Salzburg - W.A. Mozart",
+      "Country": "Austria",
+      "IATACode": "SZG"
+    },
+    {
+      "Airport": "Samara - Kurumoch International Airport",
+      "Country": "Russia",
+      "IATACode": "KUF"
+    },
+    {
+      "Airport": "Samarkand - Samarkand International Airport",
+      "Country": "Uzbekistan",
+      "IATACode": "SKD"
+    },
+    {
+      "Airport": "Samos",
+      "Country": "Greece",
+      "IATACode": "SMI"
+    },
+    {
+      "Airport": "Samsun",
+      "Country": "Turkey",
+      "IATACode": "SZF"
+    },
+    {
+      "Airport": "San Andres",
+      "Country": "Colombia",
+      "IATACode": "ADZ"
+    },
+    {
+      "Airport": "San Angelo (TX)",
+      "Country": "USA",
+      "IATACode": "SJT"
+    },
+    {
+      "Airport": "San Antonio (TX)",
+      "Country": "USA",
+      "IATACode": "SAT"
+    },
+    {
+      "Airport": "San Carlos de Bariloche",
+      "Country": "Argentina",
+      "IATACode": "BRC"
+    },
+    {
+      "Airport": "San Diego - Lindberg Field International (CA)",
+      "Country": "USA",
+      "IATACode": "SAN"
+    },
+    {
+      "Airport": "San Francisco - International Airport, SA",
+      "Country": "USA",
+      "IATACode": "SFO"
+    },
+    {
+      "Airport": "San Jose Cabo",
+      "Country": "Mexico",
+      "IATACode": "SJD"
+    },
+    {
+      "Airport": "San Jose",
+      "Country": "Costa Rica",
+      "IATACode": "SJO"
+    },
+    {
+      "Airport": "San Jose (CA)",
+      "Country": "USA",
+      "IATACode": "SJC"
+    },
+    {
+      "Airport": "San Juan - Luis Munoz Marin International Airport",
+      "Country": "Puerto Rico",
+      "IATACode": "SJU"
+    },
+    {
+      "Airport": "San Luis Obisco (CA)",
+      "Country": "USA",
+      "IATACode": "SBP"
+    },
+    {
+      "Airport": "San Luis Potosi",
+      "Country": "Mexico",
+      "IATACode": "SLP"
+    },
+    {
+      "Airport": "San Pedro",
+      "Country": "Cote d'Ivoire",
+      "IATACode": "SPY"
+    },
+    {
+      "Airport": "San Pedro Sula",
+      "Country": "Honduras",
+      "IATACode": "SAP"
+    },
+    {
+      "Airport": "San Salvador",
+      "Country": "Bahamas",
+      "IATACode": "ZSA"
+    },
+    {
+      "Airport": "San Salvador",
+      "Country": "El Salvador",
+      "IATACode": "SAL"
+    },
+    {
+      "Airport": "San Sebastian",
+      "Country": "Spain",
+      "IATACode": "EAS"
+    },
+    {
+      "Airport": "Sanaa (Sana'a) - Sana'a International",
+      "Country": "Yemen",
+      "IATACode": "SAH"
+    },
+    {
+      "Airport": "Sandspit",
+      "Country": "Canada",
+      "IATACode": "YZP"
+    },
+    {
+      "Airport": "Santa Barbara (CA)",
+      "Country": "USA",
+      "IATACode": "SBA"
+    },
+    {
+      "Airport": "Santa Cruz de la Palma",
+      "Country": "Spain",
+      "IATACode": "SPC"
+    },
+    {
+      "Airport": "Santa Cruz de la Sierra",
+      "Country": "Bolivia",
+      "IATACode": "SRZ"
+    },
+    {
+      "Airport": "Santa Katarina - Mount Sinai",
+      "Country": "Egypt",
+      "IATACode": "SKV"
+    },
+    {
+      "Airport": "Santa Maria",
+      "Country": "Portugal",
+      "IATACode": "SMA"
+    },
+    {
+      "Airport": "Santa Maria (CA)",
+      "Country": "USA",
+      "IATACode": "SMX"
+    },
+    {
+      "Airport": "Santander",
+      "Country": "Spain",
+      "IATACode": "SDR"
+    },
+    {
+      "Airport": "Santa Rosa (CA)",
+      "Country": "USA",
+      "IATACode": "STS"
+    },
+    {
+      "Airport": "Santa Rosa",
+      "Country": "Bolivia",
+      "IATACode": "SRB"
+    },
+    {
+      "Airport": "Santa Rosa",
+      "Country": "Brazil",
+      "IATACode": "SRA"
+    },
+    {
+      "Airport": "Santa Rosa",
+      "Country": "Argentina",
+      "IATACode": "RSA"
+    },
+    {
+      "Airport": "Santa Rosa, Copan",
+      "Country": "Honduras",
+      "IATACode": "SDH"
+    },
+    {
+      "Airport": "Santa Rosalia",
+      "Country": "Colombia",
+      "IATACode": "SSL"
+    },
+    {
+      "Airport": "Santa Rosalia",
+      "Country": "Mexico",
+      "IATACode": "SRL"
+    },
+    {
+      "Airport": "Santiago - Antonio Maceo Airport",
+      "Country": "Cuba",
+      "IATACode": "SCU"
+    },
+    {
+      "Airport": "Santiago de Chile - Arturo Merino Benitez",
+      "Country": "Chile",
+      "IATACode": "SCL"
+    },
+    {
+      "Airport": "Santiago de Compostela",
+      "Country": "Spain",
+      "IATACode": "SCQ"
+    },
+    {
+      "Airport": "Santo",
+      "Country": "Vanuatu",
+      "IATACode": "SON"
+    },
+    {
+      "Airport": "Santo Domingo",
+      "Country": "Dominican Republic",
+      "IATACode": "SDQ"
+    },
+    {
+      "Airport": "Sao Luis - Marechal Cunha Machado International",
+      "Country": "Brazil",
+      "IATACode": "SLZ"
+    },
+    {
+      "Airport": "Sao Paulo",
+      "Country": "Brazil",
+      "IATACode": "SAO"
+    },
+    {
+      "Airport": "Sao Paulo - Congonhas",
+      "Country": "Brazil",
+      "IATACode": "CGH"
+    },
+    {
+      "Airport": "Sao Paulo - Viracopos",
+      "Country": "Brazil",
+      "IATACode": "VCP"
+    },
+    {
+      "Airport": "Sao Tome",
+      "Country": "Sao Tome & Principe",
+      "IATACode": "TMS"
+    },
+    {
+      "Airport": "Sapporo",
+      "Country": "Hokkaido, Japan",
+      "IATACode": "SPK"
+    },
+    {
+      "Airport": "Sapporo - Okadama",
+      "Country": "Hokkaido, Japan",
+      "IATACode": "OKD"
+    },
+    {
+      "Airport": "Sapporo - New Chitose Airport",
+      "Country": "Japan",
+      "IATACode": "CTS"
+    },
+    {
+      "Airport": "Sarajevo",
+      "Country": "Bosnia and Herzegovina",
+      "IATACode": "SJJ"
+    },
+    {
+      "Airport": "Saransk - Saransk Airport",
+      "Country": "Russia",
+      "IATACode": "SKX"
+    },
+    {
+      "Airport": "Sarasota/Bradenton (FL)",
+      "Country": "USA",
+      "IATACode": "SRQ"
+    },
+    {
+      "Airport": "Saskatoon",
+      "Country": "Canada",
+      "IATACode": "YXE"
+    },
+    {
+      "Airport": "Sassandra",
+      "Country": "Cote d'Ivoire",
+      "IATACode": "ZSS"
+    },
+    {
+      "Airport": "Savannah (GA)",
+      "Country": "USA",
+      "IATACode": "SAV"
+    },
+    {
+      "Airport": "Savonlinna",
+      "Country": "Finland",
+      "IATACode": "SVL"
+    },
+    {
+      "Airport": "Scarborough - Crown Point International",
+      "Country": "Trinidad and Tobago",
+      "IATACode": "TAB"
+    },
+    {
+      "Airport": "Scone",
+      "Country": "Australia",
+      "IATACode": "NSO"
+    },
+    {
+      "Airport": "Scottsdale (AZ)",
+      "Country": "USA",
+      "IATACode": "SCF"
+    },
+    {
+      "Airport": "Seattle/Tacoma (WA)",
+      "Country": "USA",
+      "IATACode": "SEA"
+    },
+    {
+      "Airport": "Sehba",
+      "Country": "Libya",
+      "IATACode": "SEB"
+    },
+    {
+      "Airport": "Seinaejoki",
+      "Country": "Finland",
+      "IATACode": "SJY"
+    },
+    {
+      "Airport": "Selibi Phikwe",
+      "Country": "Botswana",
+      "IATACode": "PKW"
+    },
+    {
+      "Airport": "Sendai",
+      "Country": "Japan",
+      "IATACode": "SDJ"
+    },
+    {
+      "Airport": "Seoul - Incheon International Airport",
+      "Country": "South Korea",
+      "IATACode": "ICN"
+    },
+    {
+      "Airport": "Seoul - Kimpo",
+      "Country": "South Korea",
+      "IATACode": "SEL"
+    },
+    {
+      "Airport": "Sevilla",
+      "Country": "Spain",
+      "IATACode": "SVQ"
+    },
+    {
+      "Airport": "Sfax",
+      "Country": "Tunisia",
+      "IATACode": "SFA"
+    },
+    {
+      "Airport": "Shamattawa, MB",
+      "Country": "Canada",
+      "IATACode": "ZTM"
+    },
+    {
+      "Airport": "Shanghai - Hongqiao",
+      "Country": "China",
+      "IATACode": "SHA"
+    },
+    {
+      "Airport": "Shanghai - Pu Dong",
+      "Country": "China",
+      "IATACode": "PVG"
+    },
+    {
+      "Airport": "Shannon (Limerick)",
+      "Country": "Ireland",
+      "IATACode": "SNN"
+    },
+    {
+      "Airport": "Sharjah",
+      "Country": "United Arab Emirates",
+      "IATACode": "SHJ"
+    },
+    {
+      "Airport": "Sharm El Sheikh",
+      "Country": "Egypt",
+      "IATACode": "SSH"
+    },
+    {
+      "Airport": "Sheffield, City Airport",
+      "Country": "United Kingdom",
+      "IATACode": "SZD"
+    },
+    {
+      "Airport": "Shenandoah Valley/Stauton (VA)",
+      "Country": "USA",
+      "IATACode": "SHD"
+    },
+    {
+      "Airport": "Shenyang",
+      "Country": "Liaoning, PR China",
+      "IATACode": "SHE"
+    },
+    {
+      "Airport": "Shenzhen - Shenzhen Bao'an International",
+      "Country": "Guangdong, PR China",
+      "IATACode": "SZX"
+    },
+    {
+      "Airport": "Sheridan (WY)",
+      "Country": "USA",
+      "IATACode": "SHR"
+    },
+    {
+      "Airport": "Shreveport, La",
+      "Country": "USA",
+      "IATACode": "SHV"
+    },
+    {
+      "Airport": "Shute Harbour",
+      "Country": "Australia",
+      "IATACode": "JHQ"
+    },
+    {
+      "Airport": "Sibu",
+      "Country": "Malaysia",
+      "IATACode": "SBW"
+    },
+    {
+      "Airport": "Sidney (MT)",
+      "Country": "USA",
+      "IATACode": "SDY"
+    },
+    {
+      "Airport": "Silistra",
+      "Country": "Bulgaria",
+      "IATACode": "SLS"
+    },
+    {
+      "Airport": "Simferopol",
+      "Country": "Ukraine",
+      "IATACode": "SIP"
+    },
+    {
+      "Airport": "Sindhri",
+      "Country": "Pakistan",
+      "IATACode": "MPD"
+    },
+    {
+      "Airport": "Singapore - Changi",
+      "Country": "Singapore",
+      "IATACode": "SIN"
+    },
+    {
+      "Airport": "Singapore - Paya Lebar",
+      "Country": "Singapore",
+      "IATACode": "QPG"
+    },
+    {
+      "Airport": "Singapore - Seletar",
+      "Country": "Singapore",
+      "IATACode": "XSP"
+    },
+    {
+      "Airport": "Singleton",
+      "Country": "Australia",
+      "IATACode": "SIX"
+    },
+    {
+      "Airport": "Sioux City IA",
+      "Country": "USA",
+      "IATACode": "SUX"
+    },
+    {
+      "Airport": "Sioux Falls (SD)",
+      "Country": "USA",
+      "IATACode": "FSD"
+    },
+    {
+      "Airport": "Sishen",
+      "Country": "South Africa",
+      "IATACode": "SIS"
+    },
+    {
+      "Airport": "Sitka (AK)",
+      "Country": "USA",
+      "IATACode": "SIT"
+    },
+    {
+      "Airport": "Sivas",
+      "Country": "Turkey",
+      "IATACode": "VAS"
+    },
+    {
+      "Airport": "Siwa",
+      "Country": "Egypt",
+      "IATACode": "SEW"
+    },
+    {
+      "Airport": "Skagway (AK)",
+      "Country": "USA",
+      "IATACode": "SGY"
+    },
+    {
+      "Airport": "Skardu",
+      "Country": "Pakistan",
+      "IATACode": "KDU"
+    },
+    {
+      "Airport": "Skiathos",
+      "Country": "Greece",
+      "IATACode": "JSI"
+    },
+    {
+      "Airport": "Skopje",
+      "Country": "Macedonia",
+      "IATACode": "SKP"
+    },
+    {
+      "Airport": "Skrydstrup",
+      "Country": "Denmark",
+      "IATACode": "SKS"
+    },
+    {
+      "Airport": "Skukuza",
+      "Country": "South Africa",
+      "IATACode": "SZK"
+    },
+    {
+      "Airport": "Sligo",
+      "Country": "Ireland",
+      "IATACode": "SXL"
+    },
+    {
+      "Airport": "Smithers",
+      "Country": "Canada",
+      "IATACode": "YYD"
+    },
+    {
+      "Airport": "Sodankylae",
+      "Country": "Finland",
+      "IATACode": "SOT"
+    },
+    {
+      "Airport": "Soenderborg",
+      "Country": "Denmark",
+      "IATACode": "SGD"
+    },
+    {
+      "Airport": "Soendre Stroemfjord",
+      "Country": "Greenland",
+      "IATACode": "SFJ"
+    },
+    {
+      "Airport": "Sofia - Vrazhdebna",
+      "Country": "Bulgaria",
+      "IATACode": "SOF"
+    },
+    {
+      "Airport": "Sogndal",
+      "Country": "Norway",
+      "IATACode": "SOG"
+    },
+    {
+      "Airport": "Southampton - Eastleigh",
+      "Country": "United Kingdom",
+      "IATACode": "SOU"
+    },
+    {
+      "Airport": "South Bend (IN)",
+      "Country": "USA",
+      "IATACode": "SBN"
+    },
+    {
+      "Airport": "South Indian Lake, MB",
+      "Country": "Canada",
+      "IATACode": "XSI"
+    },
+    {
+      "Airport": "South Molle Island",
+      "Country": "Australia",
+      "IATACode": "SOI"
+    },
+    {
+      "Airport": "Southend (London)",
+      "Country": "United Kingdom",
+      "IATACode": "SEN"
+    },
+    {
+      "Airport": "Split",
+      "Country": "Croatia (Hrvatska)",
+      "IATACode": "SPU"
+    },
+    {
+      "Airport": "Spokane (WA)",
+      "Country": "USA",
+      "IATACode": "GEG"
+    },
+    {
+      "Airport": "Springbok",
+      "Country": "South Africa",
+      "IATACode": "SBU"
+    },
+    {
+      "Airport": "Springfield (IL)",
+      "Country": "USA",
+      "IATACode": "SPI"
+    },
+    {
+      "Airport": "Springfield (MO)",
+      "Country": "USA",
+      "IATACode": "SGF"
+    },
+    {
+      "Airport": "Srinagar",
+      "Country": "India",
+      "IATACode": "SXR"
+    },
+    {
+      "Airport": "St. Augustin, PQ",
+      "Country": "Canada",
+      "IATACode": "YIF"
+    },
+    {
+      "Airport": "St. Croix",
+      "Country": "Virgin Islands (U.S.)",
+      "IATACode": "STX"
+    },
+    {
+      "Airport": "St. Etienne",
+      "Country": "France",
+      "IATACode": "EBU"
+    },
+    {
+      "Airport": "St. George (UT)",
+      "Country": "USA",
+      "IATACode": "SGU"
+    },
+    {
+      "Airport": "St. John's",
+      "Country": "Canada",
+      "IATACode": "YYT"
+    },
+    {
+      "Airport": "St. Louis (MO) Lambert–St. Louis International Airport",
+      "Country": "USA",
+      "IATACode": "STL"
+    },
+    {
+      "Airport": "St. Lucia Hewanorra",
+      "Country": "Saint Lucia",
+      "IATACode": "UVF"
+    },
+    {
+      "Airport": "St. Marteen",
+      "Country": "Netherlands Antilles",
+      "IATACode": "SXM"
+    },
+    {
+      "Airport": "St. Martin",
+      "Country": "St. Martin (Guadeloupe)",
+      "IATACode": "SFG"
+    },
+    {
+      "Airport": "St. Petersburg (Leningrad) - Pulkovo",
+      "Country": "Russia",
+      "IATACode": "LED"
+    },
+    {
+      "Airport": "St. Pierre, NF",
+      "Country": "Canada",
+      "IATACode": "FSP"
+    },
+    {
+      "Airport": "St. Thomas",
+      "Country": "Virgin Islands (U.S.)",
+      "IATACode": "STT"
+    },
+    {
+      "Airport": "State College/Belefonte (PA)",
+      "Country": "USA",
+      "IATACode": "SCE"
+    },
+    {
+      "Airport": "Stavanger",
+      "Country": "Norway",
+      "IATACode": "SVG"
+    },
+    {
+      "Airport": "Steamboat Springs (CO)",
+      "Country": "USA",
+      "IATACode": "HDN"
+    },
+    {
+      "Airport": "Stettin",
+      "Country": "Poland",
+      "IATACode": "SZZ"
+    },
+    {
+      "Airport": "Stockholm Metropolitan Area",
+      "Country": "Sweden",
+      "IATACode": "STO"
+    },
+    {
+      "Airport": "Stockholm - Arlanda",
+      "Country": "Sweden",
+      "IATACode": "ARN"
+    },
+    {
+      "Airport": "Stockholm - Bromma",
+      "Country": "Sweden",
+      "IATACode": "BMA"
+    },
+    {
+      "Airport": "Stockton (CA)",
+      "Country": "USA",
+      "IATACode": "SCK"
+    },
+    {
+      "Airport": "Stornway",
+      "Country": "United Kingdom",
+      "IATACode": "SYY"
+    },
+    {
+      "Airport": "Strasbourg - Strasbourg Airport",
+      "Country": "France",
+      "IATACode": "SXB"
+    },
+    {
+      "Airport": "Streaky Bay",
+      "Country": "Australia",
+      "IATACode": "KBY"
+    },
+    {
+      "Airport": "Stuttgart - Echterdingen",
+      "Country": "Germany",
+      "IATACode": "STR"
+    },
+    {
+      "Airport": "Sui",
+      "Country": "Pakistan",
+      "IATACode": "SUL"
+    },
+    {
+      "Airport": "Sukkur",
+      "Country": "Pakistan",
+      "IATACode": "SKZ"
+    },
+    {
+      "Airport": "Sumburgh (Shetland)",
+      "Country": "United Kingdom",
+      "IATACode": "LSI"
+    },
+    {
+      "Airport": "Sun Valley (ID)",
+      "Country": "USA",
+      "IATACode": "SUN"
+    },
+    {
+      "Airport": "Sundsvall",
+      "Country": "Sweden",
+      "IATACode": "SDL"
+    },
+    {
+      "Airport": "Sunshine Coast",
+      "Country": "Australia",
+      "IATACode": "MCY"
+    },
+    {
+      "Airport": "Surabaya - Juanda",
+      "Country": "Indonesia",
+      "IATACode": "SUB"
+    },
+    {
+      "Airport": "Surat",
+      "Country": "India",
+      "IATACode": "STV"
+    },
+    {
+      "Airport": "Suva - Nausori Airport (Luvuluvu)",
+      "Country": "Fiji",
+      "IATACode": "SUV"
+    },
+    {
+      "Airport": "Swakopmund",
+      "Country": "Namibia",
+      "IATACode": "SWP"
+    },
+    {
+      "Airport": "Sydney - Sydney Airport",
+      "Country": "Australia",
+      "IATACode": "SYD"
+    },
+    {
+      "Airport": "Sylhet",
+      "Country": "Bangladesh",
+      "IATACode": "ZYL"
+    },
+    {
+      "Airport": "Syracuse (NY)",
+      "Country": "USA",
+      "IATACode": "SYR"
+    },
+    {
+      "Airport": "Tabuk",
+      "Country": "Saudi Arabia",
+      "IATACode": "TUU"
+    },
+    {
+      "Airport": "Taif",
+      "Country": "Saudi Arabia",
+      "IATACode": "TIF"
+    },
+    {
+      "Airport": "Taipei - Chiang Kai Shek",
+      "Country": "Taiwan",
+      "IATACode": "TPE"
+    },
+    {
+      "Airport": "Taipei - Sung Shan",
+      "Country": "Taiwan",
+      "IATACode": "TAY"
+    },
+    {
+      "Airport": "Taiyuan",
+      "Country": "Shanxi, PR China",
+      "IATACode": "TYN"
+    },
+    {
+      "Airport": "Takamatsu",
+      "Country": "Japan",
+      "IATACode": "TAK"
+    },
+    {
+      "Airport": "Talkeetna (AK)",
+      "Country": "USA",
+      "IATACode": "TKA"
+    },
+    {
+      "Airport": "Tallahassee (FL)",
+      "Country": "USA",
+      "IATACode": "TLH"
+    },
+    {
+      "Airport": "Tallinn - Pirita Harbour",
+      "Country": "Estonia",
+      "IATACode": "QUF"
+    },
+    {
+      "Airport": "Tallinn - Ulemiste",
+      "Country": "Estonia",
+      "IATACode": "TLL"
+    },
+    {
+      "Airport": "Tampa - International (FL)",
+      "Country": "USA",
+      "IATACode": "TPA"
+    },
+    {
+      "Airport": "Tampere",
+      "Country": "Finland",
+      "IATACode": "TMP"
+    },
+    {
+      "Airport": "Tampico - Gen. F. Javier Mina",
+      "Country": "Mexico",
+      "IATACode": "TAM"
+    },
+    {
+      "Airport": "Tamworth",
+      "Country": "Australia",
+      "IATACode": "TMW"
+    },
+    {
+      "Airport": "Tangier - Boukhalef",
+      "Country": "Morocco",
+      "IATACode": "TNG"
+    },
+    {
+      "Airport": "Taree",
+      "Country": "Australia",
+      "IATACode": "TRO"
+    },
+    {
+      "Airport": "Targovishte",
+      "Country": "Bulgaria",
+      "IATACode": "TGV"
+    },
+    {
+      "Airport": "Tashkent - International",
+      "Country": "Uzbekistan",
+      "IATACode": "TAS"
+    },
+    {
+      "Airport": "Tawau",
+      "Country": "Malaysia",
+      "IATACode": "TWU"
+    },
+    {
+      "Airport": "Tbilisi - Novo Alexeyevka",
+      "Country": "Georgia",
+      "IATACode": "TBS"
+    },
+    {
+      "Airport": "Te Anau",
+      "Country": "New Zealand",
+      "IATACode": "TEU"
+    },
+    {
+      "Airport": "Teesside, Durham Tees Valley",
+      "Country": "United Kingdom",
+      "IATACode": "MME"
+    },
+    {
+      "Airport": "Tegucigalpa",
+      "Country": "Honduras",
+      "IATACode": "TGU"
+    },
+    {
+      "Airport": "Tehran (Teheran) - Mehrabad",
+      "Country": "Iran",
+      "IATACode": "THR"
+    },
+    {
+      "Airport": "Tekirdag - Corlu",
+      "Country": "Turkey",
+      "IATACode": "TEQ"
+    },
+    {
+      "Airport": "Tel Aviv - Ben Gurion International",
+      "Country": "Israel",
+      "IATACode": "TLV"
+    },
+    {
+      "Airport": "Telluride (CO)",
+      "Country": "USA",
+      "IATACode": "TEX"
+    },
+    {
+      "Airport": "Temora",
+      "Country": "Australia",
+      "IATACode": "TEM"
+    },
+    {
+      "Airport": "Tenerife",
+      "Country": "Spain",
+      "IATACode": "TCI"
+    },
+    {
+      "Airport": "Tenerife - Sur Reina Sofia",
+      "Country": "Spain",
+      "IATACode": "TFS"
+    },
+    {
+      "Airport": "Tenerife - Norte Los Rodeos",
+      "Country": "Spain",
+      "IATACode": "TFN"
+    },
+    {
+      "Airport": "Tennant Creek",
+      "Country": "Australia",
+      "IATACode": "TCA"
+    },
+    {
+      "Airport": "Terceira",
+      "Country": "Portugal",
+      "IATACode": "TER"
+    },
+    {
+      "Airport": "Teresina",
+      "Country": "Brazil",
+      "IATACode": "THE"
+    },
+    {
+      "Airport": "Termez (Termes)",
+      "Country": "Uzbekistan",
+      "IATACode": "TMZ"
+    },
+    {
+      "Airport": "Terrace",
+      "Country": "Canada",
+      "IATACode": "YXT"
+    },
+    {
+      "Airport": "Terre Haute (IN)",
+      "Country": "USA",
+      "IATACode": "HUF"
+    },
+    {
+      "Airport": "Texarkana (AR)",
+      "Country": "USA",
+      "IATACode": "TXK"
+    },
+    {
+      "Airport": "Thaba'Nchu",
+      "Country": "South Africa",
+      "IATACode": "TCU"
+    },
+    {
+      "Airport": "The Pas",
+      "Country": "Canada",
+      "IATACode": "YQD"
+    },
+    {
+      "Airport": "Thessaloniki - Makedonia Apt.",
+      "Country": "Greece",
+      "IATACode": "SKG"
+    },
+    {
+      "Airport": "Thief River Falls (MN)",
+      "Country": "USA",
+      "IATACode": "TVF"
+    },
+    {
+      "Airport": "Thira",
+      "Country": "Greece",
+      "IATACode": "JTR"
+    },
+    {
+      "Airport": "Thiruvananthapuram",
+      "Country": "India",
+      "IATACode": "TRV"
+    },
+    {
+      "Airport": "Thisted",
+      "Country": "Denmark",
+      "IATACode": "TED"
+    },
+    {
+      "Airport": "Thompson",
+      "Country": "Canada",
+      "IATACode": "YTH"
+    },
+    {
+      "Airport": "Thorne Bay (AK)",
+      "Country": "USA",
+      "IATACode": "KTB"
+    },
+    {
+      "Airport": "Thunder Bay",
+      "Country": "Canada",
+      "IATACode": "YQT"
+    },
+    {
+      "Airport": "Thursday Island",
+      "Country": "Australia",
+      "IATACode": "TIS"
+    },
+    {
+      "Airport": "Tianjin",
+      "Country": "China",
+      "IATACode": "TSN"
+    },
+    {
+      "Airport": "Tijuana - Rodriguez",
+      "Country": "Mexico",
+      "IATACode": "TIJ"
+    },
+    {
+      "Airport": "Tioman",
+      "Country": "Indonesia",
+      "IATACode": "TOD"
+    },
+    {
+      "Airport": "Tirana - Rinas",
+      "Country": "Albania",
+      "IATACode": "TIA"
+    },
+    {
+      "Airport": "Tiruchirapally",
+      "Country": "India",
+      "IATACode": "TRZ"
+    },
+    {
+      "Airport": "Tivat",
+      "Country": "Montenegro",
+      "IATACode": "TIV"
+    },
+    {
+      "Airport": "Tokushima",
+      "Country": "Japan",
+      "IATACode": "TKS"
+    },
+    {
+      "Airport": "Tokyo",
+      "Country": "Japan",
+      "IATACode": "TYO"
+    },
+    {
+      "Airport": "Tokyo - Haneda",
+      "Country": "Japan",
+      "IATACode": "HND"
+    },
+    {
+      "Airport": "Tokyo - Narita",
+      "Country": "Japan",
+      "IATACode": "NRT"
+    },
+    {
+      "Airport": "Toledo (OH)",
+      "Country": "USA",
+      "IATACode": "TOL"
+    },
+    {
+      "Airport": "Tom Price",
+      "Country": "Australia",
+      "IATACode": "TPR"
+    },
+    {
+      "Airport": "Toowoomba",
+      "Country": "Australia",
+      "IATACode": "TWB"
+    },
+    {
+      "Airport": "Toronto - Billy Bishop Toronto City Airport",
+      "Country": "Canada",
+      "IATACode": "YTZ"
+    },
+    {
+      "Airport": "Toronto - Toronto Pearson International Airport",
+      "Country": "Canada",
+      "IATACode": "YYZ"
+    },
+    {
+      "Airport": "Toronto",
+      "Country": "Canada",
+      "IATACode": "YTO"
+    },
+    {
+      "Airport": "Tortola",
+      "Country": "British Virgin Islands",
+      "IATACode": "TOV"
+    },
+    {
+      "Airport": "Touho",
+      "Country": "New Caledonia",
+      "IATACode": "TOU"
+    },
+    {
+      "Airport": "Toulouse - Blagnac Airport",
+      "Country": "France",
+      "IATACode": "TLS"
+    },
+    {
+      "Airport": "Townsville",
+      "Country": "Australia",
+      "IATACode": "TSV"
+    },
+    {
+      "Airport": "Toyama",
+      "Country": "Japan",
+      "IATACode": "TOY"
+    },
+    {
+      "Airport": "Trabzon",
+      "Country": "Turkey",
+      "IATACode": "TZX"
+    },
+    {
+      "Airport": "Trapani",
+      "Country": "Italy",
+      "IATACode": "TPS"
+    },
+    {
+      "Airport": "Traverse City (MI)",
+      "Country": "USA",
+      "IATACode": "TVC"
+    },
+    {
+      "Airport": "Treasure Cay",
+      "Country": "Bahamas",
+      "IATACode": "TCB"
+    },
+    {
+      "Airport": "Trenton/Princeton (NJ)",
+      "Country": "USA",
+      "IATACode": "TTN"
+    },
+    {
+      "Airport": "Treviso",
+      "Country": "Italy",
+      "IATACode": "TSF"
+    },
+    {
+      "Airport": "Tri-Cities Regional (TN) /VA",
+      "Country": "USA",
+      "IATACode": "TRI"
+    },
+    {
+      "Airport": "Trieste",
+      "Country": "Italy",
+      "IATACode": "TRS"
+    },
+    {
+      "Airport": "Tripoli - Tripoli International",
+      "Country": "Libya",
+      "IATACode": "TIP"
+    },
+    {
+      "Airport": "Tromsoe",
+      "Country": "Norway",
+      "IATACode": "TOS"
+    },
+    {
+      "Airport": "Trondheim",
+      "Country": "Norway",
+      "IATACode": "TRD"
+    },
+    {
+      "Airport": "Tsumeb",
+      "Country": "Namibia",
+      "IATACode": "TSB"
+    },
+    {
+      "Airport": "Tucson (AZ)",
+      "Country": "USA",
+      "IATACode": "TUS"
+    },
+    {
+      "Airport": "Tulepo (MS)",
+      "Country": "USA",
+      "IATACode": "TUP"
+    },
+    {
+      "Airport": "Tulsa (OK)",
+      "Country": "USA",
+      "IATACode": "TUL"
+    },
+    {
+      "Airport": "Tunis - Carthage",
+      "Country": "Tunisia",
+      "IATACode": "TUN"
+    },
+    {
+      "Airport": "Turbat",
+      "Country": "Pakistan",
+      "IATACode": "TUK"
+    },
+    {
+      "Airport": "Turin",
+      "Country": "Italy",
+      "IATACode": "TRN"
+    },
+    {
+      "Airport": "Turku",
+      "Country": "Finland",
+      "IATACode": "TKU"
+    },
+    {
+      "Airport": "Tuscaloosa (AL)",
+      "Country": "USA",
+      "IATACode": "TCL"
+    },
+    {
+      "Airport": "Tuxtla Gutierrez",
+      "Country": "Mexico",
+      "IATACode": "TGZ"
+    },
+    {
+      "Airport": "Twin Falls (ID)",
+      "Country": "USA",
+      "IATACode": "TWF"
+    },
+    {
+      "Airport": "Tyler (TX)",
+      "Country": "USA",
+      "IATACode": "TYR"
+    },
+    {
+      "Airport": "Ua Huka",
+      "Country": "French Polynesia",
+      "IATACode": "UAH"
+    },
+    {
+      "Airport": "Ua Pou",
+      "Country": "French Polynesia",
+      "IATACode": "UAP"
+    },
+    {
+      "Airport": "Ube",
+      "Country": "Japan",
+      "IATACode": "UBJ"
+    },
+    {
+      "Airport": "Uberaba",
+      "Country": "Brazil",
+      "IATACode": "UBA"
+    },
+    {
+      "Airport": "Uberlandia - Eduardo Gomes Airport",
+      "Country": "Brazil",
+      "IATACode": "UDI"
+    },
+    {
+      "Airport": "Ubon Ratchathani - Muang Ubon Airport",
+      "Country": "Thailand",
+      "IATACode": "UBP"
+    },
+    {
+      "Airport": "Udaipur - Dabok Airport",
+      "Country": "India",
+      "IATACode": "UDR"
+    },
+    {
+      "Airport": "Uden - Volkel Airport",
+      "Country": "Netherlands",
+      "IATACode": "UDE"
+    },
+    {
+      "Airport": "Udon Thani",
+      "Country": "Thailand",
+      "IATACode": "UTH"
+    },
+    {
+      "Airport": "Ufa",
+      "Country": "Russia",
+      "IATACode": "UFA"
+    },
+    {
+      "Airport": "Uherske Hradiste",
+      "Country": "Czech Republic",
+      "IATACode": "UHE"
+    },
+    {
+      "Airport": "Uige",
+      "Country": "Angola",
+      "IATACode": "UGO"
+    },
+    {
+      "Airport": "Ujung Pandang - Hasanudin Airport",
+      "Country": "Indonesia",
+      "IATACode": "UPG"
+    },
+    {
+      "Airport": "Ukhta",
+      "Country": "Russia",
+      "IATACode": "UCT"
+    },
+    {
+      "Airport": "Ukiah (CA)",
+      "Country": "USA",
+      "IATACode": "UKI"
+    },
+    {
+      "Airport": "Ulaanbaatar - Buyant Uhaa Airport",
+      "Country": "Mongolia",
+      "IATACode": "ULN"
+    },
+    {
+      "Airport": "Ulan-Ude",
+      "Country": "Russia",
+      "IATACode": "UUD"
+    },
+    {
+      "Airport": "Ulanhot",
+      "Country": "PR China",
+      "IATACode": "HLH"
+    },
+    {
+      "Airport": "Ulei",
+      "Country": "Vanuatu",
+      "IATACode": "ULB"
+    },
+    {
+      "Airport": "Ulsan",
+      "Country": "South Korea",
+      "IATACode": "USN"
+    },
+    {
+      "Airport": "Ulundi",
+      "Country": "South Africa",
+      "IATACode": "ULD"
+    },
+    {
+      "Airport": "Umea",
+      "Country": "Sweden",
+      "IATACode": "UME"
+    },
+    {
+      "Airport": "Umiujaq",
+      "Country": "Canada",
+      "IATACode": "YUD"
+    },
+    {
+      "Airport": "Umtata",
+      "Country": "South Africa",
+      "IATACode": "UTT"
+    },
+    {
+      "Airport": "Unalakleet (AK)",
+      "Country": "USA",
+      "IATACode": "UNK"
+    },
+    {
+      "Airport": "Union Island",
+      "Country": "Saint Vincent and the Grenadines",
+      "IATACode": "UNI"
+    },
+    {
+      "Airport": "Unst (Shetland Island) - Baltasound Airport",
+      "Country": "United Kingdom",
+      "IATACode": "UNT"
+    },
+    {
+      "Airport": "Upala",
+      "Country": "Costa Rica",
+      "IATACode": "UPL"
+    },
+    {
+      "Airport": "Upernavik - Upernavik Heliport",
+      "Country": "Greenland",
+      "IATACode": "JUV"
+    },
+    {
+      "Airport": "Upington",
+      "Country": "South Africa",
+      "IATACode": "UTN"
+    },
+    {
+      "Airport": "Upolu Point (HI)",
+      "Country": "USA",
+      "IATACode": "UPP"
+    },
+    {
+      "Airport": "Uranium City",
+      "Country": "Canada",
+      "IATACode": "YBE"
+    },
+    {
+      "Airport": "Urgench",
+      "Country": "Uzbekistan",
+      "IATACode": "UGC"
+    },
+    {
+      "Airport": "Uriman",
+      "Country": "Venezuela",
+      "IATACode": "URM"
+    },
+    {
+      "Airport": "Urmiehm (Orumieh)",
+      "Country": "Iran",
+      "IATACode": "OMH"
+    },
+    {
+      "Airport": "Uruapan",
+      "Country": "Mexico",
+      "IATACode": "UPN"
+    },
+    {
+      "Airport": "Urubupunga - Ernesto Pochler Airport",
+      "Country": "Brazil",
+      "IATACode": "URB"
+    },
+    {
+      "Airport": "Uruguaiana - Ruben Berta Airport",
+      "Country": "Brazil",
+      "IATACode": "URG"
+    },
+    {
+      "Airport": "Urumqi",
+      "Country": "Xinjiang, PR China",
+      "IATACode": "URC"
+    },
+    {
+      "Airport": "Uruzgan",
+      "Country": "Afghanistan",
+      "IATACode": "URZ"
+    },
+    {
+      "Airport": "Ushuaia - Islas Malvinas Airport",
+      "Country": "Argentina",
+      "IATACode": "USH"
+    },
+    {
+      "Airport": "Utapao (Pattaya)",
+      "Country": "Thailand",
+      "IATACode": "UTP"
+    },
+    {
+      "Airport": "Utica (NY) - Oneida County Airport",
+      "Country": "USA",
+      "IATACode": "UCA"
+    },
+    {
+      "Airport": "Utila",
+      "Country": "Honduras",
+      "IATACode": "UII"
+    },
+    {
+      "Airport": "Uummannaq",
+      "Country": "Greenland",
+      "IATACode": "UMD"
+    },
+    {
+      "Airport": "Uzhgorod",
+      "Country": "Ukraine",
+      "IATACode": "UDJ"
+    },
+    {
+      "Airport": "Vaasa",
+      "Country": "Finland",
+      "IATACode": "VAA"
+    },
+    {
+      "Airport": "Vaexjoe",
+      "Country": "Sweden",
+      "IATACode": "VXO"
+    },
+    {
+      "Airport": "Vail (CO)",
+      "Country": "USA",
+      "IATACode": "EGE"
+    },
+    {
+      "Airport": "Val d'Or",
+      "Country": "Canada",
+      "IATACode": "YVO"
+    },
+    {
+      "Airport": "Valdez (AK)",
+      "Country": "USA",
+      "IATACode": "VDZ"
+    },
+    {
+      "Airport": "Valdosta (GA)",
+      "Country": "USA",
+      "IATACode": "VLD"
+    },
+    {
+      "Airport": "Valencia",
+      "Country": "Spain",
+      "IATACode": "VLC"
+    },
+    {
+      "Airport": "Valencia",
+      "Country": "Venezuela",
+      "IATACode": "VLN"
+    },
+    {
+      "Airport": "Valladolid",
+      "Country": "Spain",
+      "IATACode": "VLL"
+    },
+    {
+      "Airport": "Valparaiso",
+      "Country": "Chile",
+      "IATACode": "VAP"
+    },
+    {
+      "Airport": "Valverde",
+      "Country": "Spain",
+      "IATACode": "VDE"
+    },
+    {
+      "Airport": "Van - Ferit Melen",
+      "Country": "Turkey",
+      "IATACode": "VAN"
+    },
+    {
+      "Airport": "Vancouver - Vancouver International",
+      "Country": "Canada",
+      "IATACode": "YVR"
+    },
+    {
+      "Airport": "Varadero",
+      "Country": "Cuba",
+      "IATACode": "VRA"
+    },
+    {
+      "Airport": "Varanasi",
+      "Country": "India",
+      "IATACode": "VNS"
+    },
+    {
+      "Airport": "Varkaus",
+      "Country": "Finland",
+      "IATACode": "VRK"
+    },
+    {
+      "Airport": "Varna",
+      "Country": "Bulgaria",
+      "IATACode": "VAR"
+    },
+    {
+      "Airport": "Vasteras",
+      "Country": "Sweden",
+      "IATACode": "VST"
+    },
+    {
+      "Airport": "Velikiye Luki (Welikije Luki)",
+      "Country": "Russia",
+      "IATACode": "VLU"
+    },
+    {
+      "Airport": "Venice - Marco Polo",
+      "Country": "Italy",
+      "IATACode": "VCE"
+    },
+    {
+      "Airport": "Veracruz",
+      "Country": "Mexico",
+      "IATACode": "VER"
+    },
+    {
+      "Airport": "Vernal (UT)",
+      "Country": "USA",
+      "IATACode": "VEL"
+    },
+    {
+      "Airport": "Vero Beach/Ft. Pierce (FL)",
+      "Country": "USA",
+      "IATACode": "VRB"
+    },
+    {
+      "Airport": "Verona (Brescia) Montichiari",
+      "Country": "Italy",
+      "IATACode": "VBS"
+    },
+    {
+      "Airport": "Verona",
+      "Country": "Italy",
+      "IATACode": "VRN"
+    },
+    {
+      "Airport": "Victoria",
+      "Country": "Canada",
+      "IATACode": "YYJ"
+    },
+    {
+      "Airport": "Victoria Falls",
+      "Country": "Zimbabwe",
+      "IATACode": "VFA"
+    },
+    {
+      "Airport": "Vidin",
+      "Country": "Bulgaria",
+      "IATACode": "VID"
+    },
+    {
+      "Airport": "Vientiane - Wattay",
+      "Country": "Lao PDR",
+      "IATACode": "VTE"
+    },
+    {
+      "Airport": "Vigo",
+      "Country": "Spain",
+      "IATACode": "VGO"
+    },
+    {
+      "Airport": "Villahermosa",
+      "Country": "Mexico",
+      "IATACode": "VSA"
+    },
+    {
+      "Airport": "Virgin Gorda",
+      "Country": "Virgin Islands (British)",
+      "IATACode": "VIJ"
+    },
+    {
+      "Airport": "Visalia (CA)",
+      "Country": "USA",
+      "IATACode": "VIS"
+    },
+    {
+      "Airport": "Visby",
+      "Country": "Sweden",
+      "IATACode": "VBY"
+    },
+    {
+      "Airport": "Vitoria",
+      "Country": "Spain",
+      "IATACode": "VIT"
+    },
+    {
+      "Airport": "Vitoria - Eurico de Aguiar Salles Airport",
+      "Country": "Brazil",
+      "IATACode": "VIX"
+    },
+    {
+      "Airport": "Vryheid",
+      "Country": "South Africa",
+      "IATACode": "VYD"
+    },
+    {
+      "Airport": "Wabush",
+      "Country": "Canada",
+      "IATACode": "YWK"
+    },
+    {
+      "Airport": "Waco (TX)",
+      "Country": "USA",
+      "IATACode": "ACT"
+    },
+    {
+      "Airport": "Wagga",
+      "Country": "Australia",
+      "IATACode": "WGA"
+    },
+    {
+      "Airport": "Walla Walla (WA)",
+      "Country": "USA",
+      "IATACode": "ALW"
+    },
+    {
+      "Airport": "Wallis",
+      "Country": "Wallis and Futuna Islands",
+      "IATACode": "WLS"
+    },
+    {
+      "Airport": "Walvis Bay",
+      "Country": "South Africa",
+      "IATACode": "WVB"
+    },
+    {
+      "Airport": "Warrnambool",
+      "Country": "Australia",
+      "IATACode": "WMB"
+    },
+    {
+      "Airport": "Warsaw - Frédéric Chopin",
+      "Country": "Poland",
+      "IATACode": "WAW"
+    },
+    {
+      "Airport": "Washington DC - Dulles International",
+      "Country": "USA",
+      "IATACode": "IAD"
+    },
+    {
+      "Airport": "Washington DC - Ronald Reagan National",
+      "Country": "USA",
+      "IATACode": "DCA"
+    },
+    {
+      "Airport": "Washington DC",
+      "Country": "USA",
+      "IATACode": "WAS"
+    },
+    {
+      "Airport": "Waterloo IA",
+      "Country": "USA",
+      "IATACode": "ALO"
+    },
+    {
+      "Airport": "Watertown (SD)",
+      "Country": "USA",
+      "IATACode": "ATY"
+    },
+    {
+      "Airport": "Wausau/Stevens Point (WI)",
+      "Country": "USA",
+      "IATACode": "CWA"
+    },
+    {
+      "Airport": "Weipa",
+      "Country": "Australia",
+      "IATACode": "WEI"
+    },
+    {
+      "Airport": "Welkom",
+      "Country": "South Africa",
+      "IATACode": "WEL"
+    },
+    {
+      "Airport": "Wellington",
+      "Country": "New Zealand",
+      "IATACode": "WLG"
+    },
+    {
+      "Airport": "Wenatchee (WA)",
+      "Country": "USA",
+      "IATACode": "EAT"
+    },
+    {
+      "Airport": "West Palm Beach (FL)",
+      "Country": "USA",
+      "IATACode": "PBI"
+    },
+    {
+      "Airport": "West Yellowstone (MT)",
+      "Country": "USA",
+      "IATACode": "WYS"
+    },
+    {
+      "Airport": "Westerland, Sylt Airport",
+      "Country": "Germany",
+      "IATACode": "GWT"
+    },
+    {
+      "Airport": "Whakatane",
+      "Country": "New Zealand",
+      "IATACode": "WHK"
+    },
+    {
+      "Airport": "Whale Cove, NT",
+      "Country": "Canada",
+      "IATACode": "YXN"
+    },
+    {
+      "Airport": "Whangarei",
+      "Country": "New Zealand",
+      "IATACode": "WRE"
+    },
+    {
+      "Airport": "White Plains (NY)",
+      "Country": "USA",
+      "IATACode": "HPN"
+    },
+    {
+      "Airport": "Whitehorse",
+      "Country": "Canada",
+      "IATACode": "YXY"
+    },
+    {
+      "Airport": "Whitsunday Resort",
+      "Country": "Australia",
+      "IATACode": "HAP"
+    },
+    {
+      "Airport": "Whyalla",
+      "Country": "Australia",
+      "IATACode": "WYA"
+    },
+    {
+      "Airport": "Wichita Falls (TX)",
+      "Country": "USA",
+      "IATACode": "SPS"
+    },
+    {
+      "Airport": "Wichita (KS)",
+      "Country": "USA",
+      "IATACode": "ICT"
+    },
+    {
+      "Airport": "Wick",
+      "Country": "United Kingdom",
+      "IATACode": "WIC"
+    },
+    {
+      "Airport": "Wickham",
+      "Country": "Australia",
+      "IATACode": "WHM"
+    },
+    {
+      "Airport": "Wien (Vienna) - Vienna International",
+      "Country": "Austria",
+      "IATACode": "VIE"
+    },
+    {
+      "Airport": "Wiesbaden, Air Base",
+      "Country": "Germany",
+      "IATACode": "WIE"
+    },
+    {
+      "Airport": "Wilkes Barre/Scranton (PA)",
+      "Country": "USA",
+      "IATACode": "AVP"
+    },
+    {
+      "Airport": "Williamsport (PA)",
+      "Country": "USA",
+      "IATACode": "IPT"
+    },
+    {
+      "Airport": "Williston (ND)",
+      "Country": "USA",
+      "IATACode": "ISL"
+    },
+    {
+      "Airport": "Wilmington (NC)",
+      "Country": "USA",
+      "IATACode": "ILM"
+    },
+    {
+      "Airport": "Wilna (Vilnius)",
+      "Country": "Lithuania",
+      "IATACode": "VNO"
+    },
+    {
+      "Airport": "Wiluna",
+      "Country": "Australia",
+      "IATACode": "WUN"
+    },
+    {
+      "Airport": "Windhoek - Eros",
+      "Country": "Namibia",
+      "IATACode": "ERS"
+    },
+    {
+      "Airport": "Windhoek - Hosea Kutako International",
+      "Country": "Namibia",
+      "IATACode": "WDH"
+    },
+    {
+      "Airport": "Windsor Ontario",
+      "Country": "Canada",
+      "IATACode": "YQG"
+    },
+    {
+      "Airport": "Winnipeg International",
+      "Country": "Canada",
+      "IATACode": "YWG"
+    },
+    {
+      "Airport": "Wolf Point (MT)",
+      "Country": "USA",
+      "IATACode": "OLF"
+    },
+    {
+      "Airport": "Wollongong",
+      "Country": "Australia",
+      "IATACode": "WOL"
+    },
+    {
+      "Airport": "Woomera",
+      "Country": "Australia",
+      "IATACode": "UMR"
+    },
+    {
+      "Airport": "Worcester (MA)",
+      "Country": "USA",
+      "IATACode": "ORH"
+    },
+    {
+      "Airport": "Worland (WY)",
+      "Country": "USA",
+      "IATACode": "WRL"
+    },
+    {
+      "Airport": "Wrangell (AK)",
+      "Country": "USA",
+      "IATACode": "WRG"
+    },
+    {
+      "Airport": "Wuhan",
+      "Country": "Hubei, PR China",
+      "IATACode": "WUH"
+    },
+    {
+      "Airport": "Wyndham",
+      "Country": "Australia",
+      "IATACode": "WYN"
+    },
+    {
+      "Airport": "Xiamen",
+      "Country": "Fujian, PR China",
+      "IATACode": "XMN"
+    },
+    {
+      "Airport": "Xi'an - Xianyang",
+      "Country": "Shaanxi, PR China",
+      "IATACode": "XIY"
+    },
+    {
+      "Airport": "Yakima (WA)",
+      "Country": "USA",
+      "IATACode": "YKM"
+    },
+    {
+      "Airport": "Yakutat (AK)",
+      "Country": "USA",
+      "IATACode": "YAK"
+    },
+    {
+      "Airport": "Yakutsk",
+      "Country": "Russia",
+      "IATACode": "YKS"
+    },
+    {
+      "Airport": "Yamagata, Junmachi",
+      "Country": "Japan",
+      "IATACode": "GAJ"
+    },
+    {
+      "Airport": "Yamoussoukro",
+      "Country": "Côte d'Ivoire",
+      "IATACode": "ASK"
+    },
+    {
+      "Airport": "Yanbu",
+      "Country": "Saudi Arabia",
+      "IATACode": "YNB"
+    },
+    {
+      "Airport": "Yangon (Rangoon) - Mingaladon",
+      "Country": "Myanmar",
+      "IATACode": "RGN"
+    },
+    {
+      "Airport": "Yaounde",
+      "Country": "Cameroon",
+      "IATACode": "YAO"
+    },
+    {
+      "Airport": "Yellowknife",
+      "Country": "Canada",
+      "IATACode": "YZF"
+    },
+    {
+      "Airport": "Yekaterinburg - Koltsovo Airport",
+      "Country": "Russia",
+      "IATACode": "SVX"
+    },
+    {
+      "Airport": "Yichang",
+      "Country": "Hubei, PR China",
+      "IATACode": "YIH"
+    },
+    {
+      "Airport": "Yokohama",
+      "Country": "Japan",
+      "IATACode": "YOK"
+    },
+    {
+      "Airport": "Yuma (AZ)",
+      "Country": "USA",
+      "IATACode": "YUM"
+    },
+    {
+      "Airport": "Zacatecas",
+      "Country": "Mexico",
+      "IATACode": "ZCL"
+    },
+    {
+      "Airport": "Zadar",
+      "Country": "Croatia (Hrvatska)",
+      "IATACode": "ZAD"
+    },
+    {
+      "Airport": "Zagreb - Zagreb Airport Pleso",
+      "Country": "Croatia (Hrvatska)",
+      "IATACode": "ZAG"
+    },
+    {
+      "Airport": "Zakynthos",
+      "Country": "Greece",
+      "IATACode": "ZTH"
+    },
+    {
+      "Airport": "Zaragoza",
+      "Country": "Spain",
+      "IATACode": "ZAZ"
+    },
+    {
+      "Airport": "Zhob",
+      "Country": "Pakistan",
+      "IATACode": "PZH"
+    },
+    {
+      "Airport": "Zinder",
+      "Country": "Niger",
+      "IATACode": "ZND"
+    },
+    {
+      "Airport": "Zouerate",
+      "Country": "Mauritania",
+      "IATACode": "OUZ"
+    },
+    {
+      "Airport": "Zurich (Zürich) - Kloten",
+      "Country": "Switzerland",
+      "IATACode": "ZRH"
+    }
+  ]
+}
