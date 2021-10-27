@@ -22,8 +22,13 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
 
         public IATACodeEntity[] SearchIATACodes(string airport, string geonameId)
         {
+            var query = Regex.Replace(airport, @"[^0-9a-zA-Z]+", " ").
+                ToLower().Split(new char[] { ' ' },
+                StringSplitOptions.RemoveEmptyEntries);
+
             var searchResults = _flightBotDBContext.IATACode.Where(x =>
-                x.geonameId.Equals(geonameId));
+                x.geonameId.Equals(geonameId) && HasMatchedQuery(query, x.Country, x.CityAirport,
+                (int)Math.Max(1, (float)query.Length / 2)));
 
             if (searchResults.Count() == 0)
             {
@@ -36,15 +41,11 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                 return searchResults.ToArray();
             }
 
-            var query = Regex.Replace(airport, @"[^0-9a-zA-Z]+", " ").
-                ToLower().Split(new char[] { ' ' },
-                StringSplitOptions.RemoveEmptyEntries);
-
             return _flightBotDBContext.IATACode.AsEnumerable().Where(x => 
-                HasMatchedQuery(query, x.Country, x.CityAirport)).ToArray();
+                HasMatchedQuery(query, x.Country, x.CityAirport, query.Length)).ToArray();
         }
 
-        bool HasMatchedQuery(string[]query, string country, string cityAirport) 
+        bool HasMatchedQuery(string[]query, string country, string cityAirport, int maxMatches) 
         {
             var countrySegments = Regex.Replace(country, @"[^0-9a-zA-Z]+", " ").
                 ToLower().Split(new char[] { ' ' },
@@ -63,7 +64,7 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                     }
                 }
 
-                if (matches.Equals(query.Length))
+                if (matches.Equals(maxMatches))
                 {
                     return true;
                 }
@@ -86,7 +87,7 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                     }
                 }
 
-                if (matches.Equals(query.Length))
+                if (matches.Equals(maxMatches))
                 {
                     return true;
                 }
