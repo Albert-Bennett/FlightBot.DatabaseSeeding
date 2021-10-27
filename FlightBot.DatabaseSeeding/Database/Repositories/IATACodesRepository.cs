@@ -26,19 +26,19 @@ namespace FlightBot.DatabaseSeeding.Database.Repositories
                 ToLower().Split(new char[] { ' ' },
                 StringSplitOptions.RemoveEmptyEntries);
 
-            var searchResults = _flightBotDBContext.IATACode.Where(x =>
+            var searchResults = _flightBotDBContext.IATACode.AsEnumerable().Where(x =>
                 x.geonameId.Equals(geonameId) && HasMatchedQuery(query, x.Country, x.CityAirport,
-                (int)Math.Max(1, (float)query.Length / 2)));
+                (int)Math.Max(1, (float)query.Length / 2))).ToArray();
 
             if (searchResults.Count() == 0)
             {
                 searchResults = _flightBotDBContext.IATACode.Where(x =>
-                    x.Country.Contains(airport) | x.CityAirport.Contains(airport));
+                    x.Country.Contains(airport) | x.CityAirport.Contains(airport)).ToArray();
             }
 
             if (searchResults.Count() > 0)
             {
-                return searchResults.ToArray();
+                return searchResults;
             }
 
             return _flightBotDBContext.IATACode.AsEnumerable().Where(x => 
